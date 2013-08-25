@@ -1,1 +1,30 @@
 This is just some sample code for a future PHP OOP tutorial I am about to write.
+
+The output my look like this.
+
+
+Attacking army is: Blue
+Defending army is: Pink
+Army Pink has been hit with 7 damage but the armor blocked 6. Damage is reduced to 1.
+Army Blue has been hit with 7 damage but the armor blocked 8. Damage is reduced to 0.
+Army Pink has been hit with 2 damage but the armor blocked 8. Damage is reduced to 0.
+Army Blue has been hit with 5 damage but the armor blocked 5. Damage is reduced to 0.
+Army Pink has been hit with 7 damage but the armor blocked 5. Damage is reduced to 2.
+Army Blue has been hit with 4 damage but the armor blocked 6. Damage is reduced to 0.
+Army Pink has been hit with 4 damage but the armor blocked 1. Damage is reduced to 3.
+Army Blue has been hit with 0 damage but the armor blocked 4. Damage is reduced to 0.
+Army Pink has been hit with 6 damage but the armor blocked 3. Damage is reduced to 3.
+Army Blue has been hit with 0 damage but the armor blocked 2. Damage is reduced to 0.
+Army Pink has been hit with 4 damage but the armor blocked 0. Damage is reduced to 4.
+The Battle has won by Blue
+
+Attacking army is: Blue
+Defending army is: Green
+Army Green has been hit with 9 damage but the armor blocked 8. Damage is reduced to 1.
+Army Blue has been hit with 1 damage but the armor blocked 2. Damage is reduced to 0.
+Army Green has been hit with 6 damage but the armor blocked 1. Damage is reduced to 5.
+Army Blue has been hit with 1 damage but the armor blocked 4. Damage is reduced to 0.
+Army Green has been hit with 8 damage but the armor blocked 1. Damage is reduced to 7.
+The Battle has won by Blue
+
+The Winner is: Blue
