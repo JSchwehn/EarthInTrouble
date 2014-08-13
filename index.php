@@ -52,8 +52,11 @@ spl_autoload_register(
 );
 
 /**
- * Wenn irgendwo ein Fehler ausgelöst wird können wir wir diesen hier Systemweit abfangen und
- * kontrolliert im catch-Bereich behandelt.
+ * Wenn irgendwo ein Fehler ausgelöst wird, können wir diesen hier Systemweit abfangen und
+ * kontrolliert im catch-Bereich behandelt. In der wirklichen Welt sollten die Try Catch 
+ * Blöcke näher an der Stelle des Problems platziert sein. Nur dann kann man sinnvoll einen Fehler
+ * abfangen und vorallem auf den Fehler reagieren. so köntne man z.B. ein paar millisekunden warten 
+ * und die Operation noch mal durchführen. So bricht das Programm nicht bei jeder Kleinigkeit ab.
  */
 try {
     /**
@@ -112,4 +115,6 @@ function buildSoliders($numberOfUnits = 10, $strength = 1, $armor = 1)
     return $soldiers;
 }
 
-// Kein schliessender PHP-Tag!
+// Kein schliessender PHP-Tag! 
+// Das wird gemacht um evtl. Ausgaben - im allgemeinen ein Leerzeichen nach dem Schliessen-Tag - zu verhindern.
+// 
